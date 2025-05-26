@@ -1,11 +1,24 @@
-
 # Neonatal Epilepsy Risk Insights
+
+![React](https://img.shields.io/badge/Frontend-React-61dafb)
+![TypeScript](https://img.shields.io/badge/Language-TypeScript-blue)
+![TailwindCSS](https://img.shields.io/badge/Styling-TailwindCSS-38bdf8)
+![Recharts](https://img.shields.io/badge/Charts-Recharts-purple)
+![Google Gemini API](https://img.shields.io/badge/AI-Gemini%20API-yellow)
+
+> If you find this project helpful, please consider ⭐ [starring the repository](https://github.com/dragonpilee/neonatal-epilepsy-risk-insights)!
+
+---
 
 ## 🌟 Overview
 
 **Neonatal Epilepsy Risk Insights** is a conceptual web application designed to simulate the prediction of epilepsy risk in newborn babies. It utilizes parental genetic information, family history, and various perinatal/neonatal clinical factors as inputs. The application then provides a simulated risk assessment, visualizes contributing factors through charts, and offers AI-generated general recommendations (if a Google Gemini API key is configured).
 
 **Developed by Alan Cyril Sunny.**
+
+---
+
+![App Screenshot](./screenshot.jpg)
 
 ---
 
@@ -35,6 +48,8 @@ This application is a **conceptual tool for illustrative and educational purpose
 *   **Responsive Design:** User-friendly interface accessible on various devices.
 *   **Clear Disclaimers:** Emphasizes the non-medical, conceptual nature of the tool.
 
+---
+
 ## 🛠️ Technologies Used
 
 *   **Frontend:** React 19, TypeScript
@@ -42,6 +57,8 @@ This application is a **conceptual tool for illustrative and educational purpose
 *   **Charting:** Recharts
 *   **AI Integration:** Google Gemini API (`@google/genai`) for generating recommendations.
 *   **Build/Module System:** ES Modules directly in the browser (via `importmap` in `index.html`).
+
+---
 
 ## ⚙️ How It Works (High-Level)
 
@@ -59,6 +76,8 @@ This application is a **conceptual tool for illustrative and educational purpose
     *   A chart visualizing the impact of key factors.
     *   A summary of the assessment.
     *   The (potentially AI-generated) recommendations.
+
+---
 
 ## 📂 Project Structure
 
@@ -90,6 +109,8 @@ This application is a **conceptual tool for illustrative and educational purpose
 ├── README.md                       # This file
 └── tsconfig.json                   # TypeScript configuration (conceptual)
 ```
+
+---
 
 ## 🚀 Getting Started
 
@@ -143,11 +164,13 @@ This project is designed to run directly in a modern browser using ES Modules an
 2.  Click the "Get Risk Assessment" button.
 3.  View the simulated results, including the overall risk score, risk level, contributing factors chart, summary, and (if API key is configured) AI-generated recommendations.
 
+---
+
 ## 📜 License
 
 This project is for demonstration and educational purposes. No specific license is attached, but please use responsibly and acknowledge the source if you adapt or build upon it.
 
 ---
 
-This README provides a comprehensive guide to the Neonatal Epilepsy Risk Insights application.
+This README provides a comprehensive guide to the Neonatal Epilepsy Risk Insights application.  
 Remember the critical importance of the disclaimer: **this is not a medical tool.**
