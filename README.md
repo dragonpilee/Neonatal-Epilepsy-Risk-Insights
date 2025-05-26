@@ -18,7 +18,7 @@
 
 ---
 
-![App Screenshot](./screenshot.jpg)
+![App Screenshot](./new.jpg)
 
 ---
 
