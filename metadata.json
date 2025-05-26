@@ -1,0 +1,5 @@
+{
+  "name": "Neonatal Epilepsy Risk Insights",
+  "description": "A React application to simulate epilepsy risk prediction in newborns based on parental genetic information and visualize the results. This is a conceptual tool and not for medical diagnosis.",
+  "requestFramePermissions": []
+}
